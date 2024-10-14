@@ -5,7 +5,7 @@
   "homepage": "https://github.com/asbhogal/Tailwind-CSS-Website",
 
   "scripts": {
-    "build": "npx tailwind -i ./src/input.css -o ./public/output.css",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
     "start": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   },
   "keywords": [],
