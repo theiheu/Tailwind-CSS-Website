@@ -5,8 +5,8 @@
   "homepage": "https://github.com/asbhogal/Tailwind-CSS-Website",
 
   "scripts": {
-    "build-css": "npx tailwind -i ./src/input.css -o ./public/output.css",
-    "watch-css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+    "build": "npx tailwind -i ./src/input.css -o ./public/output.css",
+    "start": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   },
   "keywords": [],
   "author": "Aman Singh Bhogal",
